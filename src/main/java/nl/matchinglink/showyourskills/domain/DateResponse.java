@@ -1,16 +1,16 @@
 package nl.matchinglink.showyourskills.domain;
 
 public class DateResponse {
-    public String isLeap;
-    public String dayNumberInTheYear;
-    public String weekNumber;
+    private String isLeap;
+    private String dayNumberInTheYear;
+    private String weekNumber;
 
-    public String daysUntilNextCatholicChristmas;
-    public String daysUntilNextEasternOrthodoxChristmas;
+    private String daysUntilNextCatholicChristmas;
+    private String daysUntilNextEasternOrthodoxChristmas;
 
-    public String daysUntilNow;
+    private String daysUntilNow;
 
-    public String traditionalDatesConstellation;
+    private String traditionalDatesConstellation;
 
 
     public void setIsLeap(String isLeap) {
@@ -39,5 +39,34 @@ public class DateResponse {
 
     public void setTraditionalDatesConstellation(String traditionalDatesConstellation) {
         this.traditionalDatesConstellation = traditionalDatesConstellation;
+    }
+
+
+    public String getIsLeap() {
+        return isLeap;
+    }
+
+    public String getDayNumberInTheYear() {
+        return dayNumberInTheYear;
+    }
+
+    public String getWeekNumber() {
+        return weekNumber;
+    }
+
+    public String getDaysUntilNextCatholicChristmas() {
+        return daysUntilNextCatholicChristmas;
+    }
+
+    public String getDaysUntilNextEasternOrthodoxChristmas() {
+        return daysUntilNextEasternOrthodoxChristmas;
+    }
+
+    public String getDaysUntilNow() {
+        return daysUntilNow;
+    }
+
+    public String getTraditionalDatesConstellation() {
+        return traditionalDatesConstellation;
     }
 }

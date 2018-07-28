@@ -56,7 +56,7 @@ public class DateController {
 
         // 2. dayNumberInTheYear?
         int dayOfYear = localDate.getDayOfYear();
-        System.out.println(dayOfYear);
+        //System.out.println(dayOfYear);
         dateResponse.setDayNumberInTheYear(Integer.toString(dayOfYear));
 
         // 3. weekNumber?
